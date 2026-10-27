@@ -43,3 +43,13 @@ This audit covers all **16 original branches** and the pull requests visible at 
 ## Validation
 
 Checks and final cleanup results are recorded in the consolidation PR and its GitHub Actions runs. Compilation/tests verify the integrated source; they do not replace visual approval or a production release review.
+
+## Verified result
+
+- Integrated through [PR #19](https://github.com/Ergorum/nuntago/pull/19) as `76f2329ca2e4e66366075cf6c87fd4d2b0185cf7`.
+- The integrated PR's configured validation checks passed.
+- [Cleanup run](https://github.com/Ergorum/nuntago/actions/runs/40501455639) succeeded: **1 exact-tip archive tags verified** and **16 stale/temporary branches removed**.
+- Main is the integration branch; master is retained as the existing GitHub default/release branch and synchronized to the final integrated source.
+- Obsolete or incorporated PRs are closed; no open PRs remain.
+- The one-time write-enabled cleanup workflow and script are removed after successful verification; their reviewed source remains in this PR's history.
+- No production deployment, DNS change, paid provider request, outreach, or publishing occurred.
