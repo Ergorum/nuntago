@@ -5,6 +5,7 @@ on:
   push:
     branches:
       - master
+      - main
 
 permissions:
   contents: read
@@ -86,7 +87,7 @@ jobs:
 
   deploy:
     name: Deploy to Hetzner
-    if: github.event_name == 'push' && github.ref == 'refs/heads/master'
+    if: github.event_name == 'push' && github.ref == 'refs/heads/master' && !contains(github.event.head_commit.message, '[repository-cleanup]')
     needs:
       - validate
     runs-on: ubuntu-latest
