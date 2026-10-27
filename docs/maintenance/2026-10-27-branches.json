@@ -1,0 +1,79 @@
+{
+  "repository": "Ergorum/nuntago",
+  "baseline": "47a35dc7740ba5826abfed4886c3939ad20713e9",
+  "branches": [
+    {
+      "name": "feat/pactsignal-jwt-auth",
+      "sha": "edc9cdb941d956a7a16422dc6b47ea49e412f012"
+    },
+    {
+      "name": "feat/public-showcase-cloudflare-console",
+      "sha": "d9e206cd41fd0f2ca85ee4542afc1095c6d40be3"
+    },
+    {
+      "name": "fix/demo-host-role-swap",
+      "sha": "94b9910a8334fe62ff9e5eb622126bd792997bda"
+    },
+    {
+      "name": "fix/nuntago-demo-flat-host",
+      "sha": "29ade92270e9e667039a23feba146118e741f773"
+    },
+    {
+      "name": "implementation/discovery-candidate-quality",
+      "sha": "5219e7c439c0986e11932f21480ef900dafe7ce5"
+    },
+    {
+      "name": "implementation/docker-runtime",
+      "sha": "7d773aade94d6440fb091aa2b3a944474bfd8e59"
+    },
+    {
+      "name": "implementation/existing-lead-suppression",
+      "sha": "70df327bb4acf844d87303e0d7203b4e5c9dc8e7"
+    },
+    {
+      "name": "implementation/hetzner-cicd-deployment",
+      "sha": "46640d22fa01ab313fc1f93d73186664cc0961ed"
+    },
+    {
+      "name": "implementation/observability-and-runtime-logging",
+      "sha": "798870f50f868ea2fbd3c4d027c21992656a8b74"
+    },
+    {
+      "name": "implementation/operator-actions-contact-hardening",
+      "sha": "8bc0aae2fddc237cb92da10d0bf4f13f8ef8e17f"
+    },
+    {
+      "name": "implementation/react-operator-ui",
+      "sha": "54141d23a18d054c1c5286606cdce1b013e4fcc8"
+    },
+    {
+      "name": "implementation/search-query-quality",
+      "sha": "802588b60637f46471bd97f52b3a1dae838e7729"
+    },
+    {
+      "name": "improvement/outreach-copy-quality-v2",
+      "sha": "2df14ee1a76c396d2ee4f5b59bd946962e019fe7"
+    },
+    {
+      "name": "master",
+      "sha": "47a35dc7740ba5826abfed4886c3939ad20713e9"
+    },
+    {
+      "name": "ops/pactsignal-caddy-network",
+      "sha": "1c28ec9d326e44e9bb90ef87283a1d9f5c6f3313"
+    },
+    {
+      "name": "rebrand/nuntago",
+      "sha": "8a9f7f99ff58e905cac77885fcb391d39f13bfa8"
+    }
+  ],
+  "archives": [
+    {
+      "branch": "implementation/operator-actions-contact-hardening",
+      "sha": "8bc0aae2fddc237cb92da10d0bf4f13f8ef8e17f",
+      "tag": "archive/2026-10-27/implementation/operator-actions-contact-hardening"
+    }
+  ],
+  "keep_branches": ["main", "master"],
+  "consolidation_branch": "maintenance/consolidate-main"
+}
